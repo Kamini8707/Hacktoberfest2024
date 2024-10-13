@@ -1,0 +1,63 @@
+/* CSS for contributors section */
+
+/* Main container style */
+#contributors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Individual contributor card */
+.contributor-card {
+    width: 250px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contributor avatar */
+.contributor-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+/* Contributor name */
+.contributor-card h4 {
+    font-family: 'Special Elite', cursive;
+    color: #FF0844;
+    margin-bottom: 5px;
+}
+
+/* Contributor role */
+.contributor-card p {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+/* Hover effect */
+.contributor-card:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+/* Load more button styling */
+#loadMore {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #FF0844;
+    color: #FF0844;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#loadMore:hover {
+    background-color: #FF0844;
+    color: white;
+    transition: 0.3s ease;
+}
