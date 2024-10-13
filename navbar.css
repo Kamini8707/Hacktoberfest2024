@@ -1,0 +1,79 @@
+/* CSS for Navbar */
+
+/* Navbar background and shadow */
+.navbar {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar brand logo and text */
+.navbar-brand {
+    font-family: 'Special Elite', cursive;
+    font-size: 24px;
+    color: #FF0844;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand svg {
+    margin-right: 10px;
+}
+
+/* Navbar items */
+.navbar-nav .nav-item .nav-link {
+    color: #343a40;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for Navbar items */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #FF0844;
+    transition: color 0.3s ease;
+}
+
+/* Navbar-toggler button (for mobile view) */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba%2834,%2034,%2034,%201%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+/* Collapsed Navbar on mobile */
+.collapse {
+    justify-content: center;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+/* Add some padding to the menu items */
+#menu .nav-item {
+    margin-left: 20px;
+}
+
+/* Make the Back-to-top button part of the navbar for better visibility */
+#back-to-top-btn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    padding: 10px 15px;
+    font-size: 24px;
+    background-color: #FF0844;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    display: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Back-to-top button hover effect */
+#back-to-top-btn:hover {
+    background-color: #d60e3a;
+    transition: background-color 0.3s ease;
+}
