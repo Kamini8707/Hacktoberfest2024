@@ -57,7 +57,7 @@
     container.innerHTML = '';
     const max = limit ?? list.length;
     list.forEach((item) => {
-      if (item.id <= max) {
+      if (list.indexOf(item) < max) {
         container.appendChild(createCard(item));
       }
     });
