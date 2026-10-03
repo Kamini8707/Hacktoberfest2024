@@ -1921,4 +1921,12 @@ contributors = [
     fullname: "Kamini Prajapati",
     username: "https://github.com/Kamini8707",
   }
+    fullname: "Parth Mahajan",
+    username: "https://github.com/ParthMahajan1020",
+  },
+  {
+    id: 379,
+    fullname: "Berkay Pehlivan",
+    username: "https://github.com/berkay-byte",
+  },
 ];
