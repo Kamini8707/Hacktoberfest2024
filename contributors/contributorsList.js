@@ -1921,4 +1921,8 @@ contributors = [
     fullname: "Berkay Pehlivan",
     username: "https://github.com/berkay-byte"
   }
+    id: 378,
+    fullname: "Parth Mahajan",
+    username: "https://github.com/ParthMahajan1020",
+  },
 ];
