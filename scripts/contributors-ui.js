@@ -56,10 +56,8 @@
     }
     container.innerHTML = '';
     const max = limit ?? list.length;
-    list.forEach((item) => {
-      if (list.indexOf(item) < max) {
-        container.appendChild(createCard(item));
-      }
+    list.slice(0, max).forEach((item) => {
+      container.appendChild(createCard(item));
     });
   }
 
